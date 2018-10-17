@@ -24,9 +24,13 @@ h1{
 
 ul li{
     display: inline-block;
-    color: #000000;
-    padding: 15px;
+    color: rgb(52, 58, 64);
     text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding: 1.0rem 1rem;
+    margin: 5px;
+    background-color: rgb(253, 253, 253);
 }
 ul li a{
     text-decoration: none;
