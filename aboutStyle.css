@@ -103,11 +103,11 @@ h2 {
     margin-top: 2em;
 }
 .content-footer {
-  margin: 50px 0;
   padding: 10px 0;
   text-align: center;
   background-color: #73A8C2;
   text-decoration: none;
+  margin: 237px 0;
 }
 .social > li {
   display: inline-block;
@@ -132,4 +132,7 @@ a {
     .content-footer {
         padding: 1em 2.5em;
   }
+}
+footer{
+    text-align: center;
 }

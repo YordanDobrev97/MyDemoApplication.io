@@ -1,45 +1,42 @@
-
 body{
-    background: url('https://cdn-images-1.medium.com/max/2000/1*YN6s9-9dDMnYBRbhucuz_A.jpeg');
-    width: 50%;
+    background: url('./images/homePage.jpg');
+}
+li{
+  display: inline-block;
+  padding: 4px;
+  margin: 3px;  
+}
+ul{
+    background: rgb(73, 70, 87);
+    margin: 0px;
+    padding: 5px;
+    height: 35px;
+}
+a{
+    color: rgb(255, 255, 255);
 }
 h1{
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-ul li{
-    display: inline-block;
-    color: rgb(52, 58, 64);
     text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    padding: 1.0rem 1rem;
-    margin: 5px;
-    background-color: rgb(253, 253, 253);
+    margin: 190px;
+    animation: forwards;
 }
-ul li a{
-    text-decoration: none;
+.masthead,.introduction-section, .content-footer{
+    background-color: rgb(204, 204, 204);
+    color:black;
+    font-size: 20px;
+    opacity: 0.9;
 }
-h1 {
-	font-family: 'Exo 2', sans-serif;
-	font-size: 8.5vw;
-	color: rgb(110, 110, 247);
-	padding: 5rem 0;
-	text-shadow: 0px 4px 48px rgba(255,255,255,0.2);
+.introduction-section{
+    padding: 156px;
+    margin: 10px;
+    text-align: center;
 }
-
+.masthead{
+    text-align: center;
+}
+.masthead-heading{
+    color: rgb(115, 115, 251);
+}
+.masthead-intro{
+    font-size: 20px;
+}
