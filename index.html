@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <script src="./nodeServer.js"></script>
-</head>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
+</head>
+<body onload="createHomePage()">
   <header>
     <input type="text" placeholder="Search..">
 
-    <button type="submit">Login</button>
-    <button type="submit">Register</button>
+    <button type="submit">Вход</button>
+    <button type="submit">Регистрирай се</button>
   </header>
 
   <ul>
-    <li><a href="#">Начало</a></li>
-    <li><a href="#">Категории</a></li>
-    <li><a href="#">Новини</a></li>
-    <li><a href="#">Топ Клипове</a></li>
-    <li><a href="#">Нови Клипове</a></li>
+    <li><a href="#" class="header">Начало</a></li>
+    <li><a href="#" class="header">Категории</a></li>
+    <li><a href="#" class="header">Новини</a></li>
+    <li><a href="#" class="header">Топ Клипове</a></li>
+    <li><a href="#" class="header">Нови Клипове</a></li>
   </ul>
-
+  <script src="routes/home.js"></script>
+  <video id="video-home"></video>
   <br>
-  <iframe width="420" height="315" 
-    src="https://www.youtube.com/embed/tKCgZa5VNn8" 
-    frameborder="0" allow="accelerometer; autoplay; 
-    encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-
-  <iframe width="420" height="315" src="https://www.youtube.com/embed/fK9JIDsGUm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  <iframe width="420" height="315" src="https://www.youtube.com/embed/ssYSfo6Hi0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <i onclick="playVideo(this)" class="playing-video-up"></i>
+  <script>
+    function playVideo(x) {
+        x.classList.toggle("playing-video-down");
+    }
+    </script>
+  <br>
+  <button id="play-video" onclick="playVideo()">Play Video</button>
+  <script src="./playVideo.js"></script>
+</div>
 </body>
 </html>

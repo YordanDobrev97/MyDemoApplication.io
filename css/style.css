@@ -1,0 +1,84 @@
+body{
+    background-color: burlywood;
+    padding: 5px;
+}
+li{
+  display: inline-block;
+  padding: 4px;
+  margin: 3px;  
+}
+ul{
+    background: rgb(73, 70, 87);
+    margin: 0px;
+    padding: 5px;
+    height: 35px;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    margin: 190px;
+    animation: forwards;
+}
+.masthead,.introduction-section, .content-footer{
+    background-color: rgb(204, 204, 204);
+    color:black;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.introduction-section{
+    padding: 156px;
+    margin: 10px;
+    text-align: center;
+}
+.masthead{
+    text-align: center;
+}
+.masthead-heading{
+    color: rgb(115, 115, 251);
+}
+.masthead-intro{
+    font-size: 20px;
+}
+.video-js{
+    widows: 100%;
+}
+.controls button {
+    border:none;
+    cursor:pointer;
+    background:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+ }
+ .controls .progress {
+    cursor:pointer;
+    width:75.390625%;
+}
+figure {
+    max-width:64rem;
+    width:100%;
+    max-height:30.875rem;
+    height:100%;
+    margin:1.25rem auto;
+    padding:1.051%;
+    background-color:#666;
+} 
+#play-video{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+a.header{
+    color: #ffffff;
+}
+.fa {
+    font-size: 950px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
