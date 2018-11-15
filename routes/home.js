@@ -7,7 +7,7 @@ function createHomePage() {
 
     let source = document.createElement('source');
 
-    source.setAttribute('src', 'The Walking Dead World On Fire.mp4');
+    source.setAttribute('src', 'The-Walking-Dead-World-On-Fire.mp4');
     source.setAttribute('type', 'video/mp4');
 
     video.appendChild(source);
