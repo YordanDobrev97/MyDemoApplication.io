@@ -1,2 +1,2 @@
 # MyDemoApplication
-This it's my love to JavaScript. 
+**App for video sharing**
